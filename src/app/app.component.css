@@ -1,0 +1,10 @@
+div.imgcontainer {
+    width: 94%;
+    max-width: 940px;
+    margin: 0 auto; /* to center the container for image element */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
