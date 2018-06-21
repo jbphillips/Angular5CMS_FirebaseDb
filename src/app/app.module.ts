@@ -12,13 +12,13 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     PagesListComponent,
-    LoginPageComponent//,
-    //AppRoutingModule
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
